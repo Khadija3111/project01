@@ -1,0 +1,51 @@
+
+.section {
+  padding: 29px;
+  background-color:#d4e9cd;
+  padding-bottom: 29px;
+}
+.section h2{
+  color: #16582b;
+  font-size: 44px;
+  font-weight: 590px;
+}
+
+.title {
+  color: #16582b;
+  font-size: 40px;
+  font-weight: 500px;
+  padding: 29px;
+}
+
+
+.services {
+  padding-top: 20px;
+}
+
+.psec {
+  background-color: #d4e9cd;
+  /* padding: 6px; */
+  /* font-size:49px ; */
+ 
+  border-radius: 5px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+.psec p {
+  color: #1b1919;
+  font-size: 17px;
+}
+@media (max-width: 760px) {
+  .section h2 {
+    font-size: 32px;
+  }
+
+  .title {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .psec p {
+    font-size: 14px;
+  }
+}
